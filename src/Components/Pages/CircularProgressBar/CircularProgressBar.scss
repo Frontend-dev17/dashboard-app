@@ -1,0 +1,92 @@
+.chart-container-section {
+    width: 396px;
+    height: 146px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid #EFF0F6;
+    padding: 28px 32px;
+    box-shadow: 0 11px 60px rgba(226, 236, 249, 0.5);
+
+    .chart-title {
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+}
+
+
+.chart-container {
+    display: flex;
+    width: 100%;
+    gap: 14px;
+
+    // justify-content: ;
+    .sub-title {
+        font-size: 9px;
+        color: #A7A7A7;
+        text-align: center;
+        margin-top: 6px;
+        font-weight: 600;
+    }
+
+    .chart-section {
+        position: relative;
+
+    }
+
+    .percentage {
+        color: #5F27CD;
+        position: absolute;
+        left: 30px;
+        top: 40px;
+        font-size: 16px;
+        font-weight: 700;
+
+        span {
+            font-size: 12px;
+            margin-left: 2px;
+        }
+    }
+
+    .percentage-three {
+        color: #FFC5C5;
+        position: absolute;
+        left: 30px;
+        top: 40px;
+        font-size: 16px;
+        font-weight: 700;
+
+        span {
+            font-size: 12px;
+            margin-left: 2px;
+        }
+    }
+
+    .percentage-one {
+        color: rgba(22, 192, 152, 0.38);
+        position: absolute;
+        left: 30px;
+        top: 40px;
+        font-size: 16px;
+        font-weight: 700;
+
+        span {
+            font-size: 12px;
+            margin-left: 2px;
+        }
+    }
+
+    .percentage-two {
+        color: #FF6B6B;
+        position: absolute;
+        left: 30px;
+        top: 40px;
+        font-size: 16px;
+        font-weight: 700;
+
+        span {
+            font-size: 12px;
+            margin-left: 2px;
+        }
+    }
+}

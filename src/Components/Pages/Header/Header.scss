@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    .title {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .button-style {
+        background: #1B59F8;
+        border: none;
+        border-radius: 10px;
+        display: flex;
+        gap: 6px;
+        font-weight: 500;
+        padding: 6px 8px;
+        color: white;
+        align-items: center;
+        cursor: pointer;
+    }
+}
